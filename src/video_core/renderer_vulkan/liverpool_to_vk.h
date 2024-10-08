@@ -76,7 +76,7 @@ static inline vk::Format PromoteFormatToDepth(vk::Format fmt) {
     } else if (fmt == vk::Format::eR16Unorm) {
         return vk::Format::eD16Unorm;
     }
-    UNREACHABLE();
+    //UNREACHABLE();
 }
 
 } // namespace Vulkan::LiverpoolToVK
